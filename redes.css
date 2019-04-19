@@ -1,0 +1,54 @@
+.red{
+  position: fixed;
+  top: 200px;
+  z-index: 100; /*se aplica esta propiedad para que este por encima de la imagen*/
+  left: 0;
+}
+#facebook a{
+background: #3b5998;
+padding: 10px 20px;
+color:#fff;
+text-decoration: none;
+width: 50px;
+transition: all .4s ease; /* hace que la transition tenga un efecto suave*/
+}
+#facebook a:hover{
+  background: #000;
+  padding: 10px 30px;
+}
+#twitter a{
+background: #55acee;
+padding: 10px 20px;
+color:#fff;
+text-decoration: none;
+width: 50px;
+transition: all .4s ease;
+}
+#twitter a:hover{
+  background: #000;
+  padding: 10px 30px;
+}
+#instagram a{
+background: #e95950;
+padding: 10px 20px;
+color:#fff;
+text-decoration: none;
+width: 50px;
+transition: all .4s ease;
+}
+#instagram a:hover{
+  background: #000;
+  padding: 10px 30px;
+}
+#pinterest a{
+background: #bb0000;
+padding: 10px 20px;
+color:#fff;
+text-decoration: none;
+width: 50px;
+transition: all .4s ease;
+}
+#pinterest a:hover{
+  background: #000;
+  padding: 10px 30px;
+}
